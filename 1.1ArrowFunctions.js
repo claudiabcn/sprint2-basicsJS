@@ -1,32 +1,16 @@
 // 1.1 ARROW FUNCTIONS.
-console.log("Excercise 1.1");
-function add(a, b) {
-  return a + b;
+console.log("Excercise 1.4");
+
+function printNumbers(numbers) {
+    for (let i = 0; i < numbers.length; i++) {
+        const print = (num) => console.log(num);
+        print(numbers[i]);
+    }
 }
-console.log("Normal add function: " + add(3, 3));
-let addArrow = (a, b) => a + b;
-console.log("Arrow add function: " + addArrow(10, 15));
+
+const nums = [1, 2, 3, 4, 5];
+printNumbers(nums);
 
 
-console.log("Excercise 1.2");
-function random() {
-  return Math.floor(Math.random() * (100 - 0 + 1) + 0);
-}
-console.log("Normal random number function: " + random());
-let randomArrow = () => Math.floor(Math.random() * (100 - 0 + 1) + 0);
-console.log("Arrow random number function: " + randomArrow());
-
-
-console.log("Excercise 1.3");
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-  greet() {
-    let arrowFunction = () =>
-      console.log(`Greeting arrow function: Hola, ${this.name}`);
-    return arrowFunction();
-  }
-}
-let person1 = new Person("Claudia");
-person1.greet();
+// Exercici 4
+// Funció de fletxa dins d'un loop: Crea una funció anomenada printNumbers que accepti un array de números i utilitzi un loop for per imprimir cada número a la consola utilitzant una funció de fletxa.
