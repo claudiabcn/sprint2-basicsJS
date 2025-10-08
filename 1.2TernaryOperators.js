@@ -1,8 +1,8 @@
 // 1.2 TERNARY OPERATOR.
 console.log("Excercise 2.1");
-
 let age = 24;
 age >= 18 ? console.log("Drive allowed") : console.log("Drive not allowed");
+
 
 console.log("Excercise 2.2");
 let numb1 = 15
