@@ -113,8 +113,3 @@ const printCart = () => {
         promoPrice.textContent = finalTotal.toFixed(2);
     }
 };
-
-// ** Nivell II **
-
-// Exercise 7
-const removeFromCart = (id) => {};
