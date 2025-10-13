@@ -1,5 +1,6 @@
 const validate = () => {
   const namePattern = /^[A-Za-z]+$/;
+  const passwordRegex = /^(?=.*[a-zA-Z])(?=.*[0-9]).*$/;
 
   const fName = document.getElementById("fName");
   const errorName = document.getElementById("errorName");
@@ -72,12 +73,12 @@ const validate = () => {
     errorAddress.style.display = "block";
     isValid = false;
   }
-  if (passwordValue === "" || passwordValue.length < 6) {
+  if (passwordValue === "" || passwordValue.length < 3 || !passwordRegex.test(passwordValue)) {
     fPassword.classList.add("is-invalid");
     errorPassword.style.display = "block";
     isValid = false;
   }
-  if (phoneValue === "" || !/^\d{7,15}$/.test(phoneValue)) {
+  if (phoneValue === "" || !/^\d{9}$/.test(phoneValue)) {
     fPhone.classList.add("is-invalid");
     errorPhone.style.display = "block";
     isValid = false;
