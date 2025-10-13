@@ -6,6 +6,9 @@ const cartList = document.querySelector('#cart_list');
 const totalPrice = document.querySelector('#total_price');
 const promoPrice = document.querySelector('#promo_price');
 
+const countProductBadge = document.querySelector('#count_product');
+
+
 const buy = (productId) => {
     const productInCart = cart.find((product) => product.id === productId);
 
@@ -21,6 +24,7 @@ const buy = (productId) => {
     }
     
     printCart();
+    updateProductCount();
     
     const total = calculateTotal();
     const totalConPromociones = applyPromotionsCart(cart, total);
@@ -32,12 +36,12 @@ const buy = (productId) => {
 
 const addCartBtns = document.querySelectorAll(".add-to-cart");
 
-addCartBtns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-        const productId = parseInt(btn.dataset.productId);
-        buy(productId);
+    addCartBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            const productId = parseInt(btn.dataset.productId);
+            buy(productId);
+        });
     });
-});
 
 
 const cleanCart = () => {
@@ -50,6 +54,7 @@ const cleanCartBtn = document.querySelector("#clean-cart");
 if (cleanCartBtn) {
     cleanCartBtn.addEventListener("click", () => {
         cleanCart();
+        updateProductCount();
     });
 }
 
@@ -77,10 +82,11 @@ const applyPromotionsCart = (cart, total) => {
 };
 
 const printCart = () => {
-
     const emptyCartMessage = document.querySelector('#empty-cart-message');
-    const productRows = cartList.querySelectorAll('tr:not(#empty-cart-message)');
 
+ 
+    const productRows = cartList.querySelectorAll('tr:not(#empty-cart-message)');
+    productRows.forEach(row => row.remove());
 
     if (cart.length === 0) {
 
@@ -90,7 +96,9 @@ const printCart = () => {
     } else {
 
         emptyCartMessage.style.display = 'none';
-            const cartRowsHTML = cart.map(product => {
+
+
+        const cartRowsHTML = cart.map(product => {
             const productTotal = (product.price * product.quantity).toFixed(2);
             return `
                 <tr>
@@ -103,13 +111,21 @@ const printCart = () => {
         });
 
         cartList.innerHTML += cartRowsHTML.join('');
-        
 
         const total = calculateTotal();
         const finalTotal = applyPromotionsCart(cart, total);
-        
-   
+
         totalPrice.textContent = total.toFixed(2);
         promoPrice.textContent = finalTotal.toFixed(2);
     }
+};
+
+const updateProductCount = () => {
+    let totalItems = 0;
+    // Recorremos el array 'cart' para sumar la cantidad de cada producto
+    cart.forEach(product => {
+        totalItems += product.quantity;
+    });
+    // Actualizamos el texto del badge con el total de items
+    countProductBadge.textContent = totalItems;
 };
