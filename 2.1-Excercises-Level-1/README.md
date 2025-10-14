@@ -19,6 +19,7 @@ JavaScript
 Github
 
 ## 📋 Archivos:
+```
 sprint2-basicsJS/
   ├── 📄 index.html
   ├── 📄 1.1ArrowFunctions.js
@@ -28,7 +29,7 @@ sprint2-basicsJS/
   ├── 📄 1.5ArrayTransformations.js
   ├── 📄 1.6ArrayLoops.js
   ├── 📄 README.md
-
+```
 ## 🛠 Instalación:
 Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
 
