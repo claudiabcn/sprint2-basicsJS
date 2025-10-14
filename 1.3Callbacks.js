@@ -1,14 +1,14 @@
 // 1.3 CALLBACKS.
 console.log("Excercise 3.1");
 
-function process(name, callback) {
-  callback(name);
+function process(numb10, callback) {
+  callback(numb10);
 }
-function message(name) {
-  console.log(`${name} processed`);
+function message(numb10) {
+  console.log(`${numb10} processed`);
 }
-let name = "Claudia";
-process(name, message);
+let numb10 = 55;
+process(numb10, message);
 
 
 console.log("Excercise 3.2");

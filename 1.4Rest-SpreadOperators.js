@@ -6,13 +6,13 @@ const array2 = [6, 7, 8];
 console.log("New array: " + [...array1, ...array2]);
 
 
-console.log("Excercise 4.1");
+console.log("Excercise 4.2");
 
 function sum(...all) {
-console.log(all);
+return all.reduce((total, num) => total + num, 0);
 }
-sum("1", "2", "3", "4", "5", "6", "7", "8", "9", "10");
-console.log(sum);
+
+console.log(sum(1,10,15,20));
 
 //Exercici 1
 // Operador Spread en Arrays: Crea dues arrays, array1 i array2.
