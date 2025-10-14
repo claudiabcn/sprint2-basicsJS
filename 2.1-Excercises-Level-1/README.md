@@ -32,6 +32,11 @@ sprint2-basicsJS/
 ## 🛠 Instalación:
 Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
 
+## 📸 Demo:  
+https://level1-ex-claudiabcn.netlify.app/
+
+https://level2-ex-claudiabcn.netlify.app/
+
 ## ⭐ Aprendizajes y retos encontrados: 
 Entre los retos encontrados puedo mencionar:
 - Recordar cuándo usar this correctamente en funciones flecha.
