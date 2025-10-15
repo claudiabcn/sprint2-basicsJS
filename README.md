@@ -5,8 +5,9 @@ https://github.com/claudiabcn/sprint2-basicsJS
 Rama:2.2-Ecommerce
 
 🎯 Objetivos:
-Este proyecto es una aplicación web de demostración para una empresa de e-commerce, desarrollada para gestionar el carrito de la compra y aplicar promociones en los productos
-Se enfoca en la implementación de la lógica del carrito de compra y la aplicación de promociones sobre el precio final. Se deben simular las funcionalidades clave de una tienda online, como añadir y eliminar productos, calcular totales y validar formularios.
+Este proyecto es una aplicación web de e-commerce, desarrollada para gestionar el carrito de la compra y aplicar promociones en los productos.
+Se enfoca en la implementación de la lógica del carrito de compra y la aplicación de promociones sobre el precio final.
+Se deben simular las funcionalidades clave de una tienda online, como añadir y eliminar productos, calcular totales y validar formularios.
 
 💻 Tecnología:
 
@@ -19,6 +20,8 @@ JavaScript (ES6+)
 Bootstrap
 
 📋 Archivos:
+
+```
 sprint2-basicsJS/
 ├── 📁 css
 ├── 📁 images
@@ -29,6 +32,7 @@ sprint2-basicsJS/
 ├── 📄 index.html
 ├── 📄 checkout.html
 ├── 📄 README.md
+```
 
 🛠 Instalación:
 Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
