@@ -38,7 +38,7 @@ sprint2-basicsJS/
 Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
 
 📸 Demo:
-https://ecommerce-claudiabcn.netlify.app/
+https://sprint2-ecommerce.vercel.app/
 
 ⭐ Aprendizajes y retos encontrados:
 Entre los retos encontrados puedo mencionar:
