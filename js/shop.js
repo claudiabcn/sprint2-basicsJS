@@ -93,7 +93,7 @@ const printCart = () => {
                     <td>${product.quantity}</td>
                     <td>$${productTotal}</td>
                     <td>
-                        <button class="btn btn-danger btn-sm remove-from-cart" data-product-id="${product.id}">
+                    <button class="btn btn-danger btn-sm remove-from-cart" data-product-id="${product.id}">
                             -
                         </button>
                     </td>
