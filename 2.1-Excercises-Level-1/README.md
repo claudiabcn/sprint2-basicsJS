@@ -30,6 +30,7 @@ sprint2-basicsJS/
   ├── 📄 1.6ArrayLoops.js
   ├── 📄 README.md
 ```
+
 ## 🛠 Instalación:
 Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
 

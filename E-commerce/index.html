@@ -15,12 +15,6 @@
     <title>ShopNow - Online Shopping</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
 
     <!-- Fontawesome icons-->
     <link
@@ -47,9 +41,7 @@
         id="main-nav"
       >
         <div class="container">
-          <a class="navbar-brand" href="#!" aria-label="ShopNow Home"
-            >ShopNow</a
-          >
+          <a class="navbar-brand" href="#" aria-label="ShopNow Home">ShopNow</a>
 
           <aside
             class="shopping-cart-wrapper d-flex flex-row order-lg-last align-items-center"
@@ -93,19 +85,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="#grocery">
                   <i class="fas fa-shopping-basket" aria-hidden="true"></i>
-                  <span>Grocery</span>
+                  <span>GROCERY</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#beauty">
                   <i class="fas fa-heart" aria-hidden="true"></i>
-                  <span>Beauty</span>
+                  <span>BEAUTY</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#clothes">
                   <i class="fas fa-tshirt" aria-hidden="true"></i>
-                  <span>Clothes</span>
+                  <span>CLOTHES</span>
                 </a>
               </li>
             </ul>
@@ -117,7 +109,7 @@
     <main id="main-content">
       <!-- Hero Section -->
       <section class="hero bg-dark py-5" aria-label="Promotional banner">
-        <div class="container px-4 px-lg-5 my-5">
+        <div class="container px-4 px-lg-5 mt-5 mb-2">
           <div class="text-center text-white">
             <h1 class="display-4 fw-bolder">IT Academy Shop</h1>
             <p class="lead fw-normal text-white-50 mb-0">
@@ -130,15 +122,18 @@
       <!-- Product Sections -->
       <article class="product-section pt-5" id="grocery">
         <h2 class="text-center">
-          <i class="fas fa-shopping-basket pe-3" aria-hidden="true"></i>
-          <span>Grocery</span>
+          <span class="blur-bg">
+            <i class="fas fa-shopping-basket pe-3" aria-hidden="true"></i>
+            <span class="text">GROCERY&nbsp;</span>
+            <i class="fas fa-shopping-basket pe-3" aria-hidden="true"></i>
+          </span>
         </h2>
         <div class="container px-4 px-lg-5 mt-5">
           <div
             class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
           >
             <!-- Product Cards -->
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -166,7 +161,7 @@
                 </div>
               </article>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -194,7 +189,7 @@
                 </div>
               </article>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -227,15 +222,18 @@
       </article>
       <article class="product-section pt-5" id="beauty">
         <h2 class="text-center">
-          <i class="fas fa-heart pe-3" aria-hidden="true"></i>
-          <span>Beauty</span>
+          <span class="blur-bg">
+            <i class="fas fa-heart pe-3" aria-hidden="true"></i>
+            <span class="text">BEAUTY&nbsp; </span>
+            <i class="fas fa-heart pe-3" aria-hidden="true"></i>
+          </span>
         </h2>
         <div class="container px-4 px-lg-5 mt-5">
           <div
             class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
           >
             <!-- Product Cards -->
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -263,7 +261,7 @@
                 </div>
               </article>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -291,7 +289,7 @@
                 </div>
               </article>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -324,15 +322,18 @@
       </article>
       <article class="product-section pt-5" id="clothes">
         <h2 class="text-center">
-          <i class="fas fa-tshirt pe-3" aria-hidden="true"></i>
-          <span>Clothes</span>
+          <span class="blur-bg">
+            <i class="fas fa-tshirt" aria-hidden="true"></i>
+            <span class="text">CLOTHES</span>
+            <i class="fas fa-tshirt" aria-hidden="true"></i>
+          </span>
         </h2>
         <div class="container px-4 px-lg-5 mt-5">
           <div
             class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
           >
             <!-- Product Cards -->
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -360,7 +361,7 @@
                 </div>
               </article>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
@@ -388,7 +389,7 @@
                 </div>
               </article>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
               <article class="card product-card h-100">
                 <img
                   class="card-img-top"
