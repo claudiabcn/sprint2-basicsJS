@@ -4279,11 +4279,13 @@ fieldset:disabled .btn {
   background-color: transparent;
   border-color: transparent;
 }
+
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4306,6 +4308,7 @@ fieldset:disabled .btn {
 .nav-fill .nav-item {
   flex: 1 1 auto;
   text-align: center;
+  
 }
 
 .nav-justified > .nav-link,
@@ -4313,11 +4316,13 @@ fieldset:disabled .btn {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
+  
 }
 
 .nav-fill .nav-item .nav-link,
 .nav-justified .nav-item .nav-link {
   width: 100%;
+  
 }
 
 .tab-content > .tab-pane {
@@ -4328,7 +4333,11 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;        
+  top: 0;                 
+  left: 0;                
+  width: 100%;            
+  z-index: 1000;  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -4811,6 +4820,15 @@ fieldset:disabled .btn {
   color: #fff;
 }
 
+.blur-bg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.4); /* color claro semitransparente */
+  backdrop-filter: blur(6px); /* desenfoque del fondo */
+  border-radius: 12px;
+  padding: 18px 10px;
+}
 .card {
   position: relative;
   display: flex;
@@ -4928,6 +4946,12 @@ fieldset:disabled .btn {
 
 .card-group > .card {
   margin-bottom: 0.75rem;
+}
+
+@media (max-width: 575.98px) {
+  .card-group {
+    display: block !important;
+  }
 }
 @media (min-width: 576px) {
   .card-group {
