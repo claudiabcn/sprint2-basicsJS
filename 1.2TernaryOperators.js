@@ -1,14 +1,12 @@
-// 1.2 TERNARY OPERATOR.
-console.log("Excercise 2.3");
+console.log("Exercise 2.4");
 
-const num1 =-7
-num1 > 0 ? console.log(`${num1} és positiu`) : num1 < 0 ? console.log(`${num1} és negatiu`) : console.log(`${num1} és zero`);
+const numbers = [5, 9, 4, 7, 6];
 
-function trobarMaxim(a, b, c) {
-    return a>b ? (a>c ? a : c) : (b>c ? b : c); 
-
+function evenOrOdd(numbers) {
+numbers.forEach(number => {
+    const message = number % 2 === 0 ? 'even' : 'odd';
+    console.log(`${number} is ${message}`);
+});
 }
 
-// Ús enllaçat d'operadors ternaris: Escriu una expressió que utilitzi enllaços d'operadors ternaris per determinar si un número és positiu, negatiu o zero.
-
-// Operador ternari amb funcions: Crea una funció trobarMaxim que accepti tres paràmetres (a, b, c) i utilitzi l'operador ternari per determinar el valor màxim.
+evenOrOdd(numbers);
