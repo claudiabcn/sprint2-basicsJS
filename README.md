@@ -1,45 +1,46 @@
-⚡️ SPRINT 2: Parte 2/2 - Realizar un E-commerce
+# ⚡️ SPRINT 2: Parte 1/2 - Ejercicios básicos de Javascript
 
-🔗 Repositorio del proyecto:
+## 🔗 Repositorio del proyecto: 
 https://github.com/claudiabcn/sprint2-basicsJS
-Rama:2.2-Ecommerce
+Ramas: 
+  - 2.1-Level1-Excercises
+  - 2.1-Level2-Excercises
 
-🎯 Objetivos:
-Este proyecto es una aplicación web de e-commerce, desarrollada para gestionar el carrito de la compra y aplicar promociones en los productos.
-Se enfoca en la implementación de la lógica del carrito de compra y la aplicación de promociones sobre el precio final.
-Se deben simular las funcionalidades clave de una tienda online, como añadir y eliminar productos, calcular totales y validar formularios.
+## 🎯 Objetivos:
+- Comprender el uso de las **funciones de flecha**. 
+- Aprender y aplicar el **operador ternario**. 
+- Entender y practicar con **callbacks**.  
+- Conocer y utilizar los **operadores Rest y Spread**.  
+- Familiarizarse con **bucles y transformaciones en arrays**.
+- Conocer los **Array loops**.
 
-💻 Tecnología:
+## 💻 Tecnología: 
+JavaScript
+Github
 
-HTML5
-
-CSS3
-
-JavaScript (ES6+)
-
-Bootstrap
-
-📋 Archivos:
-
+## 📋 Archivos:
 ```
 sprint2-basicsJS/
-├── 📁 css
-├── 📁 images
-├── 📁 js
-│ ├── 📄 \_checkout.js
-│ ├── 📄 \_products.js
-│ ├── 📄 \_shop.js
-├── 📄 index.html
-├── 📄 checkout.html
-├── 📄 README.md
+  ├── 📄 index.html
+  ├── 📄 1.1ArrowFunctions.js
+  ├── 📄 1.2TernaryOperators.js
+  ├── 📄 1.3Callbacks.js
+  ├── 📄 1.4Rest-SpreadOperators.js
+  ├── 📄 1.5ArrayTransformations.js
+  ├── 📄 1.6ArrayLoops.js
+  ├── 📄 README.md
 ```
 
-🛠 Instalación:
+## 🛠 Instalación:
 Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
 
-📸 Demo:
-https://sprint2-ecommerce.vercel.app/
+## 📸 Demo:  
+https://level1-ex-claudiabcn.netlify.app/
 
-⭐ Aprendizajes y retos encontrados:
+https://level2-ex-claudiabcn.netlify.app/
+
+## ⭐ Aprendizajes y retos encontrados: 
 Entre los retos encontrados puedo mencionar:
-Cuando implementé la lógica de las promociones, la sincronización de datos, que los cambios en el carrito se reflejaran en tiempo real en los cálculos totales y la identificación de errores y solucionarlos en la lógica de las funciones, cuando no se obtenían los resultados esperados. He aprendido a interactuar con los elementos del DOM de la página web y me familiarizado con la manipulación de arrays.
+- Recordar cuándo usar this correctamente en funciones flecha.
+- Entender la diferencia entre map, forEach y filter.
+- Conocer las promesas con async/await.
