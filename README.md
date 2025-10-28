@@ -17,24 +17,17 @@ Here are the exercises of **Level 3**.
 
 The exercises cover the following topics:
 
-### Complex Asynchronicity
-Manage multiple promises simultaneously using `Promise.all`.
+- Complex Asynchronicity: Manage multiple promises simultaneously using `Promise.all`.
 
-### Error Handling (Async)
-Use `try`/`catch` within `async`/`await` functions to prevent code from crashing.
+- Error Handling (Async): Use `try`/`catch` within `async`/`await` functions to prevent code from crashing.
 
-### Callbacks (Data)
-Apply callbacks to transform data (e.g., converting text to uppercase).
+- Callbacks (Data): Apply callbacks to transform data (e.g., converting text to uppercase).
 
-### Rest & Spread (Pro)
-- Use Spread (`...`) to pass an array as arguments to a function.
-- Use Rest (`...`) in Destructuring.
+- Rest & Spread: Use Spread (`...`) to pass an array as arguments to a function and use Rest (`...`) in Destructuring.
 
-### Array Validation
-Use `every` and `some` to validate entire collections.
+- Array Validation: Use `every` and `some` to validate entire collections.
 
-### Loops (Index)
-Iterate over arrays obtaining both the value and the position (index).
+- Loops (Index): Iterate over arrays obtaining both the value and the position (index).
 
 ---
 
