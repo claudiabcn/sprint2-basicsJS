@@ -1,7 +1,7 @@
 console.log("Excercise 7.1");
 const myPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("Hola, món");
+    resolve("Hello, beautiful world");
   }, 2000);
 });
 
@@ -11,12 +11,12 @@ myPromise.then((result) => console.log(result));
 console.log("Excercise 7.3");
 
 const myPromise2 = new Promise((resolve, reject) => {
-  const input = "Holaa";
+  const input = "Helloooo";
   setTimeout(() => {
-    if (input === "Hola") {
-      resolve("Promesa resolta!");
+    if (input === "Helloooo") {
+      resolve("Promise accepted!");
     } else {
-      reject("Promesa rebutjada!");
+      reject("Promise rejected!");
     }
   }, 2000);
 });
@@ -29,7 +29,7 @@ console.log("Excercise 7.4");
 
 const myPromise3 = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("Hola, món");
+    resolve("Hello, beautiful world");
   }, 2000);
 });
 

@@ -1,10 +1,10 @@
 
 console.log("Excercise 2.1");
 
-function potConduir(age) {
-    return age >= 18 ? "Pots conduir" : "No pots conduir";        
+function allowDriving(age) {
+    return age >= 18 ? "You are allowed to drive" : "You are not allowed to drive";        
 }   
-console.log(potConduir(16))
+console.log(allowDriving(16))
 
 
 console.log("Excercise 2.2");
