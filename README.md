@@ -1,46 +1,52 @@
-# ⚡️ SPRINT 2: Parte 1/2 - Ejercicios básicos de Javascript
+⚡️ SPRINT 2: Part 1/2 - Basic Javascript Exercises
 
-## 🔗 Repositorio del proyecto: 
-https://github.com/claudiabcn/sprint2-basicsJS
-Ramas: 
-  - 2.1-Level1-Excercises
-  - 2.1-Level2-Excercises
+🔗 Project Repository:
+https://github.com/claudiabcn/sprint2-basicsJS Branch: 2.1-Level2-Excercises
 
-## 🎯 Objetivos:
-- Comprender el uso de las **funciones de flecha**. 
-- Aprender y aplicar el **operador ternario**. 
-- Entender y practicar con **callbacks**.  
-- Conocer y utilizar los **operadores Rest y Spread**.  
-- Familiarizarse con **bucles y transformaciones en arrays**.
-- Conocer los **Array loops**.
+🎯 Objectives:
+Arrow Functions & Loops: Put arrow functions in loops.
 
-## 💻 Tecnología: 
+Ternary Operator (Advanced): Use tricky nested ternaries and put them inside loops.
+
+Callbacks (Async): Use callbacks for delayed actions (setTimeout).
+
+Rest & Spread (Objects): Use Spread (...) to easily clone/merge objects without changing the originals.
+
+Array Chaining: Line up filter, map, reduce all on one line.
+
+Object Loops: Loop through object properties (for...in) and use break to stop loops.
+
+Async/Await: Use async/await to make asynchronous code much simpler.
+
+💻 Technology:
 JavaScript
+
 Github
 
-## 📋 Archivos:
-```
+📋 Files:
 sprint2-basicsJS/
-  ├── 📄 index.html
-  ├── 📄 1.1ArrowFunctions.js
-  ├── 📄 1.2TernaryOperators.js
-  ├── 📄 1.3Callbacks.js
-  ├── 📄 1.4Rest-SpreadOperators.js
-  ├── 📄 1.5ArrayTransformations.js
-  ├── 📄 1.6ArrayLoops.js
-  ├── 📄 README.md
-```
+  ├── 📄 index.html
+  ├── 📄 1.1ArrowFunctions.js
+  ├── 📄 1.2TernaryOperators.js
+  ├── 📄 1.3Callbacks.js
+  ├── 📄 1.4Rest-SpreadOperators.js
+  ├── 📄 1.5ArrayTransformations.js
+  ├── 📄 1.6ArrayLoops.js
+  ├── 📄 1.7PromisesAsync.js
+  ├── 📄 README.md
 
-## 🛠 Instalación:
-Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
+🛠 Installation:
+Clone the Repository git clone https://github.com/claudiabcn/sprint2-basicsJS
 
-## 📸 Demo:  
-https://level1-ex-claudiabcn.netlify.app/
+📸 Demo:
 
-https://level2-ex-claudiabcn.netlify.app/
+⭐ Learnings and Challenges Encountered:
+Among the challenges encountered, I can mention:
 
-## ⭐ Aprendizajes y retos encontrados: 
-Entre los retos encontrados puedo mencionar:
-- Recordar cuándo usar this correctamente en funciones flecha.
-- Entender la diferencia entre map, forEach y filter.
-- Conocer las promesas con async/await.
+Build complex logic using nested ternaries.
+
+Master immutable object copying with Spread.
+
+Handle asynchronous flow using callbacks and async/await.
+
+Optimize arrays by chaining methods.
