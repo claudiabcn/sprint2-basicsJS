@@ -14,26 +14,19 @@ Here are the exercises of **Level 1**.
 
 ## 🎯 Objectives
 
-### Arrow Functions
-Understand the concise syntax and the use of `this`.
+- Arrow Functions: Understand the concise syntax and the use of `this`.
 
-### Ternary Operator
-Replace simple if/else statements with more compact code.
+- Ternary Operator: Replace simple if/else statements with more compact code.
 
-### Callbacks (Sync)
-Use callbacks for basic flow control.
+- Callbacks (Sync): Use callbacks for basic flow control.
 
-### Rest & Spread (Arrays)
-Merge arrays (Spread) and collect arguments (Rest).
+- Rest & Spread (Arrays): Merge arrays (Spread) and collect arguments (Rest).
 
-### Array Methods
-Master the big four: `map`, `filter`, `find`, and `reduce`.
+- Array Methods: Master the big four: `map`, `filter`, `find`, and `reduce`.
 
-### Loops
-Use `forEach` and `for...of` to iterate over arrays.
+- Loops: Use `forEach` and `for...of` to iterate over arrays.
 
-### Promises
-Create promises and use them with `.then()`.
+- Promises: Create promises and use them with `.then()`.
 
 ---
 
