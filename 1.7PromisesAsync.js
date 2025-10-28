@@ -1,29 +1,29 @@
-// 1.7 Promises Async/Await
 console.log("Excercise 7.5");
-
-function crearPromesa(input) {
+function createPromise(input) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (input === 'Hola') {
-                resolve('Promesa resuelta');
+            if (input === 'Hello') {
+                resolve('Promise resolved');
             } else {
-                reject('Promesa rechazada');
+                reject('Promise rejected');
             }
         }, 2000);
     });
 }
 
-const probarPromesa = async (texto) => {
+const testPromise = async (text) => {
     try {
-        const resultado = await crearPromesa(texto);
-        console.log(resultado);
+        const result = await createPromise(text);
+
+        console.log(result); 
     } catch (error) {
-        console.log(error);
+
+        console.error(error); 
     }
-}
+};
 
-probarPromesa('Hola'); 
-probarPromesa('Adios');  
+console.log('Testing "Hello" (Success):');
+testPromise('Hello'); 
 
-
-// Gestió d'errors amb async/await: Modifica la funció de l'exercici 4 per a que capturi qualsevol possible error utilitzant un bloc try/catch.
+console.log('Testing "Goodbye" (Failure):');
+testPromise('Goodbye');
