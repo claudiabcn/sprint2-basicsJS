@@ -1,0 +1,1 @@
+setTimeout(() => console.log('Excercise 1.5: Hello! 3 seconds after.'), 3000);
