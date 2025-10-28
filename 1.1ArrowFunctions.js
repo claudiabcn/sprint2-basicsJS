@@ -1,4 +1,4 @@
-// 1.1 ARROW FUNCTIONS.
+
 console.log("Excercise 1.1");
 function add(a, b) {
   return a + b;
