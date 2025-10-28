@@ -1,12 +1,13 @@
-console.log("Excercise 3.3");
-function esperarISaludar(nom, callback) {
-    setTimeout(() => {
-        callback(nom);
-    }, 2000);
+console.log(`Excercise 3.3`);
+
+function waitAndGreet(name, callback) {
+  setTimeout(() => {
+    callback(name);
+  }, 2000);
 }
 
-function saludar(nom) {
-    console.log(`Hola, ${nom}!`);
+function greet(name) {
+  console.log(`Hello, ${name}!`);
 }
 
-esperarISaludar("Anna", saludar);
+waitAndGreet("Anna", greet);

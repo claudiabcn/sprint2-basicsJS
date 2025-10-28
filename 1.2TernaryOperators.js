@@ -1,11 +1,15 @@
+console.log(`Excercise 2.3`);
 
-console.log("Excercise 2.3");
+const number1 = -7;
+number1 > 0
+  ? console.log(`${number1} is positive`)
+  : number1 < 0
+  ? console.log(`${number1} is negative`)
+  : console.log(`${number1} is zero`);
 
-const num1 =-7
-num1 > 0 ? console.log(`${num1} és positiu`) : num1 < 0 ? console.log(`${num1} és negatiu`) : console.log(`${num1} és zero`);
-
-function trobarMaxim(a, b, c) {
-    return a>b ? (a>c ? a : c) : (b>c ? b : c); 
-
+function findMaximum(a, b, c) {
+  return a > b ? (a > c ? a : c) : b > c ? b : c;
 }
 
+const result = findMaximum(10, 25, 5);
+console.log(`The maximum number is: ${result}`);

@@ -1,13 +1,13 @@
-console.log("Excercise 4.3");
+console.log(`Excercise 4.3`);
 
-function copiarObjecte(obj) {
-    const objCopia = { ...obj };
-    return objCopia;
+function copyObject(obj) {
+  const objCopy = { ...obj };
+  return objCopy;
 }
 
-const objecte1 = { a: 1, b: 2, c: 3 };
-const objecte2 = copiarObjecte(objecte1);
-objecte2.b = 20;
+const object1 = { a: 1, b: 2, c: 3 };
+const object2 = copyObject(object1);
+object2.b = 20;
 
-console.log("Objecte 1:", objecte1); 
-console.log("Objecte 2:", objecte2); 
+console.log(`Object 1:`, object1);
+console.log(`Object 2:`, object2);

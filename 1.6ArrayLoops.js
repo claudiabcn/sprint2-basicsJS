@@ -1,14 +1,14 @@
-console.log("Excercise 6.4");
+console.log(`Excercise 6.4`);
 
-let obj = { nom: 'Ona', edat: 25, ciutat: 'Barcelona' }
-for (let clau in obj) {
-    console.log(`${clau}: ${obj[clau]}`);
+let person = { name: 'Ona', age: 25, city: 'Barcelona' };
+for (let key in person) {
+  console.log(`${key}: ${person[key]}`);
 }
 
-let numeros = [1, 2, 3, 4, 5, 6];
-for (let num of numeros) {
-    if (num === 5) {
-        break;
-    }
-    console.log(num);
+let numbers = [1, 2, 3, 4, 5, 6];
+for (let number of numbers) {
+  if (number === 5) {
+    break;
+  }
+  console.log(number);
 }
