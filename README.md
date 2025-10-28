@@ -15,26 +15,19 @@ Here are the exercises of **Level 2**.
 
 ## 🎯 Objectives
 
-### Arrow Functions & Loops
-Put arrow functions in loops.
+- Arrow Functions & Loops: Put arrow functions in loops.
 
-### Ternary Operator (Advanced)
-Use tricky nested ternaries and put them inside loops.
+- Ternary Operator (Advanced): Use tricky nested ternaries and put them inside loops.
 
-### Callbacks (Async)
-Use callbacks for delayed actions (`setTimeout`).
+- Callbacks (Async): Use callbacks for delayed actions (`setTimeout`).
 
-### Rest & Spread (Objects)
-Use Spread (`...`) to easily clone/merge objects without changing the originals.
+- Rest & Spread (Objects): Use Spread (`...`) to easily clone/merge objects without changing the originals.
 
-### Array Chaining
-Line up `filter`, `map`, `reduce` all on one line.
+- Array Chaining: Line up `filter`, `map`, `reduce` all on one line.
 
-### Object Loops
-Loop through object properties (`for...in`) and use `break` to stop loops.
+- Object Loops: Loop through object properties (`for...in`) and use `break` to stop loops.
 
-### Async/Await
-Use `async`/`await` to make asynchronous code much simpler.
+- Async/Await: Use `async`/`await` to make asynchronous code much simpler.
 
 ---
 
