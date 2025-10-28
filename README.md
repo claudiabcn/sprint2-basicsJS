@@ -65,6 +65,12 @@ git clone https://github.com/claudiabcn/sprint2-basicsJS
 
 ---
 
+## 🎥 Demo
+
+https://sprint2-basics-js-level.vercel.app/
+
+---
+
 ## ⭐ Learnings and Challenges Encountered
 
 During this sprint, the ability to:
