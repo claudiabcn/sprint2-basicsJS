@@ -1,46 +1,67 @@
-# ⚡️ SPRINT 2: Parte 1/2 - Ejercicios básicos de Javascript
+⚡️ SPRINT 2: Part 1/2 - Basic Javascript Exercises
+This project is part of Sprint 2 and focuses on solidifying key concepts in modern JavaScript, with an emphasis on advanced asynchronicity and professional data/collection handling.
+Here there are the excercises of level 3.
 
-## 🔗 Repositorio del proyecto: 
-https://github.com/claudiabcn/sprint2-basicsJS
-Ramas: 
-  - 2.1-Level1-Excercises
-  - 2.1-Level2-Excercises
+🔗 Project Resources
+Repository: https://github.com/claudiabcn/sprint2-basicsJS
 
-## 🎯 Objetivos:
-- Comprender el uso de las **funciones de flecha**. 
-- Aprender y aplicar el **operador ternario**. 
-- Entender y practicar con **callbacks**.  
-- Conocer y utilizar los **operadores Rest y Spread**.  
-- Familiarizarse con **bucles y transformaciones en arrays**.
-- Conocer los **Array loops**.
+Branch: 2.1-Level3-Excercises
 
-## 💻 Tecnología: 
-JavaScript
+🎯 Objectives
+The exercises cover the following topics:
+
+Complex Asynchronicity: Manage multiple promises simultaneously using Promise.all.
+
+Error Handling (Async): Use try/catch within async/await functions to prevent code from crashing.
+
+Callbacks (Data): Apply callbacks to transform data (e.g., converting text to uppercase).
+
+Rest & Spread (Pro):
+
+Use Spread (...) to pass an array as arguments to a function.
+
+Use Rest (...) in Destructuring.
+
+Array Validation: Use every and some to validate entire collections.
+
+Loops (Index): Iterate over arrays obtaining both the value and the position (index).
+
+💻 Technology & Files
+Technology Stack
+JavaScript (ES6+)
+
 Github
 
-## 📋 Archivos:
+File Structure
+
 ```
 sprint2-basicsJS/
-  ├── 📄 index.html
-  ├── 📄 1.1ArrowFunctions.js
-  ├── 📄 1.2TernaryOperators.js
-  ├── 📄 1.3Callbacks.js
-  ├── 📄 1.4Rest-SpreadOperators.js
-  ├── 📄 1.5ArrayTransformations.js
-  ├── 📄 1.6ArrayLoops.js
-  ├── 📄 README.md
+├── 📄 index.html
+├── 📄 1.1ArrowFunctions.js
+├── 📄 1.2TernaryOperators.js
+├── 📄 1.3Callbacks.js
+├── 📄 1.4Rest-SpreadOperators.js
+├── 📄 1.5ArrayTransformations.js
+├── 📄 1.6ArrayLoops.js
+├── 📄 1.7PromisesAsync.js
+├── 📄 README.md
 ```
 
-## 🛠 Instalación:
-Clonar el Repositorio git clone https://github.com/claudiabcn/sprint2-basicsJS
+🛠 Installation
+To get started, simply clone the repository:
 
-## 📸 Demo:  
-https://level1-ex-claudiabcn.netlify.app/
+Bash
 
-https://level2-ex-claudiabcn.netlify.app/
+git clone https://github.com/claudiabcn/sprint2-basicsJS
 
-## ⭐ Aprendizajes y retos encontrados: 
-Entre los retos encontrados puedo mencionar:
-- Recordar cuándo usar this correctamente en funciones flecha.
-- Entender la diferencia entre map, forEach y filter.
-- Conocer las promesas con async/await.
+⭐ Learnings and Challenges Encountered
+
+During this sprint, the ability to:
+
+Execute asynchronous code in parallel (Promise.all).
+
+Write fault-tolerant code with robust asynchronous error handling.
+
+Master advanced techniques for validating collections (every/some).
+
+Expertly use Rest and Spread in destructuring and function arguments.
