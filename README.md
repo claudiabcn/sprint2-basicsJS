@@ -2,8 +2,9 @@
 
 This project is part of Sprint 2 and focuses on solidifying key concepts in modern JavaScript, with an emphasis on advanced asynchronicity and professional data/collection handling.
 
----
+Here are the exercises of **Level 1**.
 
+---
 ## 🔗 Project Repository
 
 **Repository**: [https://github.com/claudiabcn/sprint2-basicsJS](https://github.com/claudiabcn/sprint2-basicsJS)  
