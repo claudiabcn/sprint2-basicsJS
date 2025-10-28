@@ -67,7 +67,7 @@ git clone https://github.com/claudiabcn/sprint2-basicsJS
 
 ## 🎥 Demo
 
-*(Add demo link or screenshot here if available)*
+https://sprint2-basics-js-level2.vercel.app/
 
 ---
 
