@@ -1,40 +1,51 @@
-console.log("Excercise 7.1");
+console.log("Excercises 7.1:");
+
 const myPromise = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve("Hello, beautiful world");
     }, 2000);
 });
 
-console.log("Excercise 7.2");
+console.log("Excercise 7.2:");
 myPromise.then((result) => console.log(result));
 
-console.log("Excercise 7.3");
+console.log("Excercise 7.3:");
 
 const myPromise2 = new Promise((resolve, reject) => {
     const input = "Helloooo";
     setTimeout(() => {
         if (input === "Helloooo") {
-            resolve("Promise accepted!");
+            resolve("Promise accepted");
         } else {
-            reject("Promise rejected!");
+            reject("Promise rejected");
         }
-    }, 2000);
+    }, 1500);
 });
 
 myPromise2.then((result) => console.log(result))
     .catch((error) => console.log(error));
 
-console.log("Excercise 7.4");
+console.log("Excercise 7.4:");
 
-const myPromise3 = new Promise((resolve, reject) => {
+const myFailablePromise = (shouldSucceed) => new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("Hello, beautiful world");
-    }, 2000);
+        if (shouldSucceed) {
+            resolve("Success");
+        } else {
+            reject(new Error("Error"));
+        }
+    }, 2500);
 });
 
-const asyncFunction = async () => {
-    const result = await myPromise3;
-    console.log(result);
+const asyncFunctionSafe = async (shouldSucceed) => {
+    try {
+        const result = await myFailablePromise(shouldSucceed);
+        console.log(`[Success Result]: ${result}`);
+    } catch (error) {
+        console.error(`[Error Result]: ${error.message}`);
+    }
 };
 
-asyncFunction();
+console.log("Testing success");
+asyncFunctionSafe(true);
+
