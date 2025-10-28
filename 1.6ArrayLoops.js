@@ -1,7 +1,6 @@
 console.log("Excercise 6.1");
 let names = ['Anna', 'Bernat', 'Clara'];
-names.forEach(names => console.log(names));
-
+names.forEach(name => console.log(name));
 
 console.log("Excercise 6.2");
 let names2 = ['Anna', 'Bernat', 'Clara'];

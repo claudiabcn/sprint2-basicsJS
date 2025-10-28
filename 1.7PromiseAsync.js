@@ -48,4 +48,3 @@ const asyncFunctionSafe = async (shouldSucceed) => {
 
 console.log("Testing success");
 asyncFunctionSafe(true);
-
