@@ -8,10 +8,10 @@ console.log("Arrow add function: " + addArrow(10, 15));
 
 console.log("Excercise 1.2");
 function random() {
-    return Math.floor(Math.random() * (100 - 0 + 1) + 0);
+    return Math.floor(Math.random() * 101);
 }
 console.log("Normal random number function: " + random());
-let randomArrow = () => Math.floor(Math.random() * (100 - 0 + 1) + 0);
+let randomArrow = () => Math.floor(Math.random() * 101);
 console.log("Arrow random number function: " + randomArrow());
 
 console.log("Excercise 1.3");
