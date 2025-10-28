@@ -40,11 +40,11 @@ https://github.com/claudiabcn/sprint2-basicsJS
 
 📸 Demos:
 
-    🔗 JS Exercises Level 1:
+    🔗 JS Exercises Level 1: https://sprint2-basics-js.vercel.app/
 
-    🔗 JS Exercises Level 2:
+    🔗 JS Exercises Level 2: https://sprint2-basics-js-level2.vercel.app/
 
-    🔗 JS Exercises Level 3:
+    🔗 JS Exercises Level 3: https://sprint2-basics-js-level3.vercel.app/
 
 
 ⭐ Key Learnings and Challenges
