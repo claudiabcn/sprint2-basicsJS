@@ -1,25 +1,20 @@
-
 console.log("Excercise 5.1");
 
 const numbersArray = [1, 2, 3, 4];
-const numbersSquareArray = numbersArray.map(function (val){
-    return val*val; 
-});
-console.log("Square array: " + numbersSquareArray)
+const numbersSquareArray = numbersArray.map(val => val * val);
+console.log("Square array: " + numbersSquareArray);
 
 console.log("Excercise 5.2");
 
 const numbersEvenArray = numbersArray.filter(element => element % 2 == 0);
-console.log("Even array: " + numbersEvenArray)
-    
+console.log("Even array: " + numbersEvenArray);
+
 console.log("Excercise 5.3");
-const numbersArray2 = [1, 10 , 8, 11]
+const numbersArray2 = [1, 10, 8, 11];
 const number10 = numbersArray2.find(element => element > 10);
-console.log("Bigger than 10: " + number10)
+console.log("Bigger than 10: " + number10);
 
 console.log("Excercise 5.4");
-const numbersArray3 = [13, 7, 8, 21]
+const numbersArray3 = [13, 7, 8, 21];
 const sumTotal = numbersArray3.reduce((acum, val) => acum + val, 0);
-console.log("Sum total: " + sumTotal)
-
-
+console.log("Sum total: " + sumTotal);
