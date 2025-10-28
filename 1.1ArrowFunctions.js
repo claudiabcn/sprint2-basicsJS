@@ -5,7 +5,7 @@ function random() {
 
 console.log(`Normal random number function: ${random()}`);
 
-let randomArrow = () => Math.floor(Math.random() * 101);
+const randomArrow = () => Math.floor(Math.random() * 101);
 
 console.log(`Arrow random number function: ${randomArrow()}`);
 
@@ -20,5 +20,5 @@ class Person {
         return arrowFunction();
     }
 }
-let person1 = new Person("Claudia");
+const person1 = new Person("Claudia");
 person1.greet();
