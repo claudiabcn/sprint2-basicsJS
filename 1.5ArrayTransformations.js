@@ -1,5 +1,5 @@
 console.log("Excercise 5.6");
-const numbers10 = [11, 12, 13, 14];
+let numbers10 = [11, 12, 13, 14];
 numbers10.every(function(num) {
 return num>10});
 
