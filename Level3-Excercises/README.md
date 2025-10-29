@@ -7,7 +7,7 @@ This project is part of Sprint 2 and focuses on solidifying key concepts in mode
 Here are the exercises of **Level 3**.
 
 
-🎯 Objectives
+## 🎯 Objectives
 
      -Arrow functions
      -Ternary operator
