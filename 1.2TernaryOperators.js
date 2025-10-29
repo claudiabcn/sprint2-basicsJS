@@ -1,6 +1,6 @@
 console.log(`Excercise 2.3`);
 
-const number1 = -7;
+let number1 = -7;
 number1 > 0
   ? console.log(`${number1} is positive`)
   : number1 < 0
