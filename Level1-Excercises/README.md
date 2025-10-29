@@ -1,72 +1,65 @@
-# ⚡️ SPRINT 2: Part 1/2 - Basic Javascript Exercises
+⚡️ SPRINT 2: Part 1/2 - Basic Javascript Exercises
 
-This project is part of Sprint 2 and focuses on solidifying key concepts in modern JavaScript, with an emphasis on advanced asynchronicity and professional data/collection handling.
+🧩 General Description:
 
-Here are the exercises of **Level 1**.
+     Project completed as part of Sprint 2, focused on learning and applying JavaScript:
 
----
-## 🔗 Project Repository
+     -Basic JavaScript exercises: practicing language fundamentals.
 
-**Repository**: [https://github.com/claudiabcn/sprint2-basicsJS](https://github.com/claudiabcn/sprint2-basicsJS)  
-**Branch**: 2.1-Level1-Excercises
 
----
+🎯 Objectives
 
-## 🎯 Objectives
+     -Arrow functions
+     -Ternary operator
+     -Callbacks
+     -Rest and Spread operators
+     -Array methods (map, filter, forEach, etc.)
 
-- Arrow Functions: Understand the concise syntax and the use of `this`.
 
-- Ternary Operator: Replace simple if/else statements with more compact code.
+💻 Technology Used
 
-- Callbacks (Sync): Use callbacks for basic flow control.
+      ⚙️ JavaScript (ES6+)
+      🐙 GitHub
 
-- Rest & Spread (Arrays): Merge arrays (Spread) and collect arguments (Rest).
+📂 Repository Folders:
 
-- Array Methods: Master the big four: `map`, `filter`, `find`, and `reduce`.
+      - 2.1-Level1-Exercises
 
-- Loops: Use `forEach` and `for...of` to iterate over arrays.
+      - 2.1-Level2-Exercises
 
-- Promises: Create promises and use them with `.then()`.
+      - 2.1-Level3-Exercises
 
----
+🔗 Main Repository:
+https://github.com/claudiabcn/sprint2-basicsJS
 
-## 💻 Technology
+🛠 Installation
 
-**JavaScript** (ES6+)  
-**Github**
+    To clone the repository:
 
----
+    git clone https://github.com/claudiabcn/sprint2-basicsJS
 
-## 📁 Files
+📸 Demos:
 
-```
-sprint2-basicsJS/
-├── index.html
-├── 1.1ArrowFunctions.js
-├── 1.2TernaryOperators.js
-├── 1.3Callbacks.js
-├── 1.4Rest-SpreadOperators.js
-├── 1.5ArrayTransformations.js
-├── 1.6ArrayLoops.js
-├── 1.7PromisesAsync.js
-└── README.md
-```
+    🔗 JS Exercises Level 1: https://sprint2-basics-js.vercel.app/
 
----
+    🔗 JS Exercises Level 2: https://sprint2-basics-js-level2.vercel.app/
 
-## 🛠 Installation
+    🔗 JS Exercises Level 3: https://sprint2-basics-js-level3.vercel.app/
 
-Clone the Repository:
 
-```bash
-git clone https://github.com/claudiabcn/sprint2-basicsJS
-```
+⭐ Key Learnings and Challenges
 
+<<<<<<< HEAD
+      During this sprint I reinforced my JavaScript knowledge.
+      Proper use of this in arrow functions.
+      Differences between map, forEach and filter.
+      Use of promises and async/await.
+=======
 ---
 
 ## 🎥 Demo
 
-*(Add demo link or screenshot here if available)*
+https://sprint2-basics-js.vercel.app/
 
 ---
 
@@ -78,3 +71,4 @@ Among the challenges encountered, I can mention:
 - Writing super compact conditional code (Ternary).
 - Handling data collections with Array transformations.
 - Understanding the foundation of Asynchronicity with Promises.
+>>>>>>> 2.1-Level1-Excercises

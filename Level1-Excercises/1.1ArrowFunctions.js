@@ -20,5 +20,5 @@ class Person {
         return arrowFunction();
     }
 }
-const person1 = new Person("Claudia");
+let person1 = new Person("Claudia");
 person1.greet();
