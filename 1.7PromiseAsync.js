@@ -1,6 +1,6 @@
 console.log("Excercises 7.1:");
 
-const myPromise = new Promise((resolve, reject) => {
+let myPromise = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve("Hello, beautiful world");
     }, 2000);
@@ -11,8 +11,8 @@ myPromise.then((result) => console.log(result));
 
 console.log("Excercise 7.3:");
 
-const myPromise2 = new Promise((resolve, reject) => {
-    const input = "Helloooo";
+let myPromise2 = new Promise((resolve, reject) => {
+    let input = "Helloooo";
     setTimeout(() => {
         if (input === "Helloooo") {
             resolve("Promise accepted");
@@ -39,7 +39,7 @@ const myFailablePromise = (shouldSucceed) => new Promise((resolve, reject) => {
 
 const asyncFunctionSafe = async (shouldSucceed) => {
     try {
-        const result = await myFailablePromise(shouldSucceed);
+        let result = await myFailablePromise(shouldSucceed);
         console.log(`[Success Result]: ${result}`);
     } catch (error) {
         console.error(`[Error Result]: ${error.message}`);

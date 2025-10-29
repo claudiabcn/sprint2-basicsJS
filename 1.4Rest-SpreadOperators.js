@@ -1,7 +1,7 @@
 console.log("Excercise 4.1");
 
-const array1 = [0, 1, 2, 3, 4, 5];
-const array2 = [6, 7, 8];
+let array1 = [0, 1, 2, 3, 4, 5];
+let array2 = [6, 7, 8];
 
 console.log(`New array: ${[...array1, ...array2]}`);
 
