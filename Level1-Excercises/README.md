@@ -1,13 +1,12 @@
-⚡️ SPRINT 2: Part 1/2 - Basic Javascript Exercises
+# ⚡️ SPRINT 2: Part 1/2 - Basic Javascript Exercises
 
-🧩 General Description:
+## 🧩 General Description:
 
-     Project completed as part of Sprint 2, focused on learning and applying JavaScript:
+This project is part of Sprint 2 and focuses on solidifying key concepts in modern JavaScript, with an emphasis on advanced asynchronicity and professional data/collection handling.
 
-     -Basic JavaScript exercises: practicing language fundamentals.
+Here are the exercises of **Level 1**.
 
-
-🎯 Objectives
+## 🎯 Objectives
 
      -Arrow functions
      -Ternary operator
@@ -16,46 +15,33 @@
      -Array methods (map, filter, forEach, etc.)
 
 
-💻 Technology Used
+## 💻 Technology Used
 
       ⚙️ JavaScript (ES6+)
       🐙 GitHub
 
-📂 Repository Folders:
+## 📁 Files
 
-      - 2.1-Level1-Exercises
+```
+sprint2-basicsJS/
+├── index.html
+├── 1.1ArrowFunctions.js
+├── 1.2TernaryOperators.js
+├── 1.3Callbacks.js
+├── 1.4Rest-SpreadOperators.js
+├── 1.5ArrayTransformations.js
+├── 1.6ArrayLoops.js
+├── 1.7PromisesAsync.js
+└── README.md
+```
 
-      - 2.1-Level2-Exercises
 
-      - 2.1-Level3-Exercises
-
-🔗 Main Repository:
-https://github.com/claudiabcn/sprint2-basicsJS
-
-🛠 Installation
+## 🛠 Installation
 
     To clone the repository:
 
     git clone https://github.com/claudiabcn/sprint2-basicsJS
 
-📸 Demos:
-
-    🔗 JS Exercises Level 1: https://sprint2-basics-js.vercel.app/
-
-    🔗 JS Exercises Level 2: https://sprint2-basics-js-level2.vercel.app/
-
-    🔗 JS Exercises Level 3: https://sprint2-basics-js-level3.vercel.app/
-
-
-⭐ Key Learnings and Challenges
-
-<<<<<<< HEAD
-      During this sprint I reinforced my JavaScript knowledge.
-      Proper use of this in arrow functions.
-      Differences between map, forEach and filter.
-      Use of promises and async/await.
-=======
----
 
 ## 🎥 Demo
 
@@ -71,4 +57,3 @@ Among the challenges encountered, I can mention:
 - Writing super compact conditional code (Ternary).
 - Handling data collections with Array transformations.
 - Understanding the foundation of Asynchronicity with Promises.
->>>>>>> 2.1-Level1-Excercises
